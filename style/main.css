@@ -387,79 +387,80 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
+    color: #000000;
     text-align: center;
-    font-weight: bold;
+    font-style: italic;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 20px; }
   .tile.tile-2 .tile-inner {
     background-image: url('tamaki-2.jpg');
-    }
+    background-size: cover;
+}
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background-image: url('kyoya-4.jpg');
     background-size: cover;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+}
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('twins-8.jpg');
     background-size: cover;
-    background: #f2b179; }
+}
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('mori-16.jpg');
     background-size: cover;
-    background: #f59563; }
+}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('haruhi-32.jpg');
     background-size: cover;
-    background: #f67c5f; }
+}
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('honey_senpai-64.jpg');
     background-size: cover;
-    background: #f65e3b; }
+}
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+   background-image: url('tamaki-128.jpg');
     background-size: cover;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+}
+
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
+
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('kyoya-256.jpg');
     background-size: cover;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+}
+    
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
+
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('twins-512.jpg');
     background-size: cover;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+}
+    
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
+
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('mori-1024.jpg');
     background-size: cover;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+}
+    
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
+
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    background-image: url('honey_senpai-2048.jpg');
     background-size: cover;
-    background-image: url(honey_senpai-2048.jpg);
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+}
+    
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
+
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
