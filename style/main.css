@@ -387,11 +387,11 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
-    color: #000000;
+    color: #2020ee;
     text-align: center;
-    font-style: italic;
+    font-style: bold;
     z-index: 10;
-    font-size: 20px; }
+    font-size: 25px; }
   .tile.tile-2 .tile-inner {
     background-image: url('tamaki-2.jpg');
     background-size: cover;
